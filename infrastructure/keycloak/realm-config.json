@@ -275,7 +275,6 @@
           "consentRequired": false,
           "config": {
             "multivalued": "true",
-            "user.attribute": "foo",
             "access.token.claim": "true",
             "claim.name": "realm_access.roles",
             "jsonType.label": "String"
@@ -289,7 +288,6 @@
           "consentRequired": false,
           "config": {
             "multivalued": "true",
-            "user.attribute": "foo",
             "access.token.claim": "true",
             "claim.name": "resource_access.${client_id}.roles",
             "jsonType.label": "String"
